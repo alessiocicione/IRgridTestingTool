@@ -1,0 +1,45 @@
+# File di bytecode e cache di Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribuzione / Packaging
+build/
+dist/
+sdist/
+wheelhouse/
+*.egg-info/
+*.egg
+
+# Ambienti virtuali
+venv/
+env/
+.venv/
+*/venv/
+*/env/
+*/.venv/
+
+# File specifici del Sistema Operativo
+.DS_Store
+Thumbs.db
+
+# File di configurazione e cache degli IDE
+.idea/          # PyCharm
+.vscode/        # Visual Studio Code
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# Report di test e coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Log
+*.log
+
+# File di configurazione locali (spesso contengono segreti)
+.env
+*.local
